@@ -9,10 +9,11 @@ import (
 	"context"
 	"encoding/base64"
 	"fmt"
-	"github.com/coredns/coredns/request"
-	"github.com/miekg/dns"
 	"io/ioutil"
 	"net/http"
+
+	"github.com/coredns/coredns/request"
+	"github.com/miekg/dns"
 )
 
 func (uh *UpstreamHost) ietfDnsExchange(ctx context.Context, state *request.Request, requestContentType string) (*http.Response, error) {
