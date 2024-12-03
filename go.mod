@@ -1,4 +1,4 @@
-module github.com/leiless/dnsredir
+module github.com/hexcamp/dnsredir
 
 go 1.13
 
